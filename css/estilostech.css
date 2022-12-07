@@ -188,7 +188,7 @@ main .article-container {
 
 main section .icons {
     padding: 10px;
-    border: 1px solid white;
+    border: 2px solid white;
     margin: 20px 0;
     display: flex;
     align-items: center;
