@@ -93,7 +93,7 @@ header nav ul li a {
 
 
 main section {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 696px;
     display: flex;
     align-items: center;
@@ -109,7 +109,7 @@ main section {
     width: 17%;
     border-radius: 50%;
     background-color: rgb(234, 12, 211);
-    filter: blur(25px);
+    filter: blur(20px);
     position: absolute;
     z-index: -4;
     top: 370px;
@@ -121,7 +121,7 @@ main section {
     width: 15%;
     border-radius: 50%;
     background-color: rgb(0, 213, 255);
-    filter: blur(25px);
+    filter: blur(20px);
     position: absolute;
     z-index: -4;
     top: 510px;
@@ -133,7 +133,7 @@ main section {
     width: 15%;
     background-color: rgb(77, 255, 0);
     border-radius: 50%;
-    filter: blur(25px);
+    filter: blur(20px);
     position: absolute;
     z-index: -4;
     top: 190px;
