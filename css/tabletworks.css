@@ -1,0 +1,37 @@
+body {
+    overflow-y: hidden;
+}
+
+header {
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+header a .logo-usuario {
+    color: white;
+}
+
+.menu {
+    color: white;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+main section {
+    height: 891px;
+}
+
+main section h2 {
+    font-size: 6.5rem;
+}
+
+main section .icons img {
+    width: 650px;
+}
+
+main section p {
+    font-size: 1.9rem;
+    margin:  20px 0;
+    width: 75%;
+}
