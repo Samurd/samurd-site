@@ -40,7 +40,15 @@ header {
     display: none;
 }
 
-.menu {
+.menu1 {
+    display: none;
+}
+
+.menu2 {
+    display: none;
+}
+
+.menu3 {
     display: none;
 }
 
@@ -72,7 +80,6 @@ header nav ul li a {
 header nav ul li a {
     color: white;
 }
-
 main section {
     height: 891px;
 }

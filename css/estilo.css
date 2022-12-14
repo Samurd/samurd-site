@@ -49,6 +49,41 @@ header {
     border-radius: 10px;
 }
 
+.menu1 {
+    display: inline-block;
+    position: absolute;
+    height: 4px;
+    top: 40px;
+    left: 47%;
+    width: 30px;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 400ms ease;
+}
+
+.menu2 {
+    display: inline-block;
+    top: 48px;
+    left: 47%;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 400ms ease;
+}
+
+.menu3 {
+    display: inline-block;
+    position: absolute;
+    top: 56px;
+    left: 47%;
+    height: 4px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: black;
+    transition: all 400ms ease;
+}
 
 #check {
    display: none ;
@@ -58,8 +93,20 @@ header {
     display: block;
 }
 
-.menu {
-    font-size: 3rem;
+#check:checked ~ .checkbtn .menu1 {
+    transform: rotate(135deg);
+    top: 50px;
+
+}
+
+#check:checked ~ .checkbtn .menu2 {
+    display: none;
+
+}
+
+#check:checked ~ .checkbtn .menu3 {
+    transform: rotate(-135deg);
+    top: 50px;
 
 }
 
