@@ -232,7 +232,7 @@ main section form {
     top: 0;
     left: 0;
     z-index: -1;
-    filter: blur(75px);
+    filter: blur(20px);
 }
 
 .circulos .circulo {
