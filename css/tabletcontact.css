@@ -84,6 +84,10 @@ main section {
     height: 891px;
 }
 
+.circulos {
+    filter: blur(120px);
+}
+
 .article-container {
     padding: 40px;
 }
