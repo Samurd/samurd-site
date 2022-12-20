@@ -164,7 +164,7 @@ main section {
     position: absolute;
     width: 90%;
     height: 90%;
-    animation: circulo1 15s ease-in-out infinite both;
+    animation: circulo1 15s infinite both;
 }
 
 .circulos .circulo1 {
