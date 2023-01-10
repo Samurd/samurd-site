@@ -97,7 +97,11 @@ header nav ul li a {
 }
 
 main section {
-    height: 890px;
+    height: 1000px;
+}
+
+main .salute--section {
+    margin-top: 90px;
 }
 
 .salute {

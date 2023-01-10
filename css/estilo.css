@@ -140,7 +140,7 @@ header nav ul li a {
 
 main section {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 735px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,6 +256,20 @@ main section p {
     width: 80px;
     background-color: white;
     z-index: 3;
+}
+
+.flecha {
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-top: 150px;
+    animation: flecha 3s infinite alternate;
+}
+
+@keyframes flecha {
+    0% {
+        transform: translateY(-20px);
+    }
+    
 }
 
 main section figure {
