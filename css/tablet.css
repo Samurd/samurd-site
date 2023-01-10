@@ -8,12 +8,17 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: rgba(0, 0, 0, 0.781);
     width: 100%;
     min-width: 320px;
     color: black;
     display: flex;
+    position: fixed;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -130,4 +135,19 @@ main section h2 {
         width: 31%;
     }
     
+}
+
+main section h3 {
+    font-size: 3.9rem;
+    margin: 20px 0;
+}
+
+
+main section .p {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+main section p {
+    font-size: 1.8rem;
 }

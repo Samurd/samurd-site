@@ -21,10 +21,10 @@
 
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-                <li><a href="./mytechstack.html">TECH STACK</a></li>
-                <li><a href="./works.html">WORKS</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
+                <li><a href="#aboutme">ABOUT ME</a></li>
+                <li><a href="#techstack">TECH STACK</a></li>
+                <li><a href="#works">WORKS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
@@ -56,6 +56,77 @@
             <a href="https://github.com/Samurd" target="_blank"><img src="./recursos/icons8-github.svg" alt="logo github"></a>
             <a href="https://www.tiktok.com/@samurdp" target="_blank"><img src="./recursos/icons8-tik-tok.svg" alt="logo tiktok"></a>
             </figure>
+        </section>
+
+        <section id="aboutme">
+            <h3>About me</h3>
+            <p class="p">I am a self-taught frontend developer, I am 17 years old and I love technology.</p>
+        </section>
+
+
+        <section id="techstack">
+            <h3>My Tech Stack</h3>
+            <article class="article-container">
+            <div class="icons">
+                <img src="./recursos/icons8-html-5.svg" alt="">
+                <h4>HTML5</h4>
+            </div>
+            <div class="icons">
+                <img src="./recursos/icons8-css3.svg" alt="">
+                <h4>CSS3</h4>
+            </div>
+            <div class="icons">
+                <img src="./recursos/icons8-git.svg" alt="">
+                <h4>Git</h4>
+            </div>
+            <div class="icons">
+                <img src="./recursos/icons8-javascript.svg" alt="">
+                <h4>Javascript</h4>
+            </div>
+            <div class="icons">
+                <img src="./recursos/icons8-oreja.svg" alt="">
+                <h4>Bootstrap</h4>
+            </div>
+            <div class="icons">
+                <img src="./recursos/icons8-figma.svg" alt="">
+                <h4>Figma</h4>
+            </div>
+            </article>
+        </section>
+
+        <section id="works">
+            <h3>Works</h3>
+            <article class="article-container--works">
+            <div class="works-cards">
+                <img src="./recursos/Imagen de WhatsApp 2022-12-13 a las 17.49.06.jpg" alt="">
+                <p>This is a project for a client who has a beauty salon company and wanted a website for his company.</p>
+                <button><a href="https://laelcol.tk/index.html" target="_blank">See More</a></button>
+            </div>
+            </article>
+        </section>
+
+
+        <section id="contact">
+            <article class="article-container--form">
+            <form name="Formulario de contacto de mi pagina web" netlify data-netlify="true">
+                <h3 class="title">Say hi! :)</h3>
+                <div class="name">
+                    <label for=""></label>
+                    <input type="text" placeholder="Name" name="name" required>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail" required>
+                </div>
+                <div class="message">
+                    <label for="message"></label>
+                    <textarea name="message" id="message_input" cols="30" rows="8" placeholder="Message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">SUBMIT</button>
+                </div>
+            </form>
+            </article>
         </section>
     </main>
     <footer></footer>

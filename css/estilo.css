@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -266,4 +267,153 @@ main section figure img {
     height: 38px;
     width: 38px;
     z-index: 3;
+}
+
+main section h3 {
+    font-size: 2.9rem;
+    margin: 20px 0;
+}
+
+main section .p {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+main section .icons {
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+main section .article-container .icons h4 {
+    font-size: 1.9rem;
+    padding-left: 6px;
+}
+
+main section .works-cards img {
+    width: 45px;
+}
+
+
+main .works-cards {
+    margin-top: 10px;
+
+}
+
+main section .works-cards {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+}
+
+
+main section .works-cards img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+main section p {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 270px;
+    margin: 15px 0;
+
+}
+
+main section .works-cards button {
+    margin-top: 10px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+main section .works-cards button a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+
+
+main section {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 776px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 320px;
+}
+
+.title {
+    font-size: 2.9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+main section form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    margin: 20px 0;
+}
+
+.name input {
+    padding: 13px 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+}
+
+.email {
+    margin: 20px 0;
+}
+
+.email input {
+    padding: 13px 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+}
+
+.message textarea {
+    padding: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+.button {
+    margin: 20px 0;
+}
+
+.button button {
+    padding: 10px 111px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    cursor: pointer;
 }
