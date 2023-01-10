@@ -19,13 +19,13 @@ header {
     color: black;
     display: flex;
     position: fixed;
+    z-index: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .logo-enlace {
-    margin-top: 10px;
     text-decoration: none;
     color: black;
 }
@@ -92,17 +92,11 @@ header nav ul li a {
     color: white;
 }
 
-.circulos {
-    filter: blur(120px);
-}
 
 main section {
-    height: 1000px;
+    height: 1100px;
 }
 
-main .salute--section {
-    margin-top: 90px;
-}
 
 .salute {
     font-size: 6.5rem;
@@ -111,19 +105,6 @@ main section p {
     font-size: 2.2rem;
 }
 
-.formas1 {
-
-    filter: blur(30px);
-}
-
-.formas2 {
-
-    filter: blur(30px);
-}
-
-.formas3 {
-    filter: blur(30px);
-}
 
 main section h2 {
     animation: typing 3s steps(10), blink .5s step-end infinite alternate;

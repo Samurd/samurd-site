@@ -149,68 +149,45 @@ main section {
 }
 
 
-.circulos {
+.fondo-animado {
     position: fixed;
     width: 100%;
-    height: 100%;
     top: 0;
     left: 0;
     z-index: -1;
     filter: blur(40px);
 }
 
-.circulos .circulo {
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    animation: circulo1 15s infinite both;
+.fondo {
+    width: 100%;
+    height: 900px;
+    background-color: red;
+    animation: fondos 13s alternate infinite ease;
 }
 
-.circulos .circulo1 {
-    top: -20%;
-    left: -20%;
-}
-
-.circulos .circulo1 .path {
-    fill: rgb(165, 177, 1);
-}
-
-@keyframes circulo1 {
-    from{
-        transform:rotate(0deg) scale(2.9);
+@keyframes fondos {
+    0% {
+        background-color: red;
     }
-    to{
-        transform: rotate(360deg) scale(2.9); 
+
+    20% {
+        background-color: blue;
+    }
+
+    40% {
+        background-color: rgb(255, 111, 28);
+    }
+
+    60% {
+        background-color: aqua;
+    }
+
+    80% {
+        background-color: chartreuse;
     }
     
 }
 
-.circulos .circulo2 {
-    top: -10%;
-    right: -10%;
-}
-
-.circulos .circulo2 .path {
-    fill:rgb(111, 0, 155);
-}
-
-.circulos .circulo3 {
-    bottom: -10%;
-    left: -10%;
-}
-
-.circulos .circulo3 .path {
-    fill: rgb(0, 59, 155);
-}
-
-.circulos .circulo4 {
-    bottom: -20%;
-    right: -20%;
-}
-
-.circulos .circulo4 .path {
-    fill: seagreen;
-}
 
 
 
