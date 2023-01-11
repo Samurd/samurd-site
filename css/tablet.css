@@ -68,7 +68,7 @@ main section p {
 
 #techstack::-webkit-scrollbar {
     width: 12px;
-    background-color: rgba(0, 0, 0, 0.781)
+    background-color: rgba(0, 0, 0, 0.781);
 }
 
 #techstack::-webkit-scrollbar-thumb {
@@ -78,4 +78,18 @@ main section p {
 
 #techstack {
     overflow-x: hidden;
+}
+
+.blog-card img {
+    width: 700px;
+}
+
+.blog-cards::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgba(0, 0, 0, 0.781);
+}
+
+.blog-cards::-webkit-scrollbar-thumb {
+    background-color: rgb(72, 72, 72);
+    border-radius: 20px;
 }

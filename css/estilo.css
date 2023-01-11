@@ -32,8 +32,14 @@ body {
     flex-direction: column;
     height: 800px;
     padding: 20px 0;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     min-width: 320px;
+}
+
+.salute--section svg {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 90px;
 }
 
 main section p {
@@ -94,16 +100,16 @@ main section figure img {
 
 /* MARGIN PARA TODAS LA SECCIONES */
 
-#aboutme, #techstack, #works, #contact {
+#aboutme, #techstack, #works {
     margin: 5px 6px;
 }
 
 .salute--section {
-    margin: 5px 10px;
+    margin: 0px 0px;
 }
 
 #contact {
-    margin: 5px 10px;
+    margin-top: 5px;
 }
 
 /*SECCION SLIDER */
@@ -178,7 +184,7 @@ main section figure img {
 
 .icons {
     display: flex;
-    background-color: rgba(0, 0, 0, 0.311);
+    background-color: rgb(27, 26, 26);
     border-radius: 10px;
     padding: 10px;
     align-items: center;
@@ -241,6 +247,70 @@ main section figure img {
     color: white;
 }
 
+/* SECCION BLOG */
+
+#blog {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    padding: 20px 0;
+    border-radius: 20px;
+    min-width: 320px;
+}
+
+
+#blog .title {
+    margin: 40px 0;
+}
+
+
+#blog .title h3 {
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.blog-cards {
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 1010px;
+}
+
+
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+    background-color: rgb(27, 26, 26);
+    height: 270px;
+    min-width: 270px;
+    width: 100%;
+    max-width: 970px;
+    border-radius: 20px;
+}
+
+.blog-card img {
+    width: 250px;
+    opacity: .6;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.blog-card h4 {
+    font-size: 1.8rem;
+    width: 100%;
+    min-width: 260px;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+
+}
+
 /*SECCION CONTACT */
 
 #contact {
@@ -251,7 +321,7 @@ main section figure img {
     flex-direction: column;
     height: 600px;
     padding: 20px 0;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     min-width: 320px;
     text-align: center;
     scroll-snap-align: center;
