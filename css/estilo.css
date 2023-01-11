@@ -25,7 +25,7 @@ body {
 }
 
 .salute--section {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@ main section figure img {
 /*SECION ABOUT ME */
 
 #aboutme {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -146,7 +146,7 @@ main section figure img {
 /*SECCION DE TECH STACK */
 
 #techstack {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -197,7 +197,7 @@ main section figure img {
 /*SECCION WORKS */
 
 #works {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,7 +244,7 @@ main section figure img {
 /*SECCION CONTACT */
 
 #contact {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(35, 35, 35);
     display: flex;
     align-items: center;
     justify-content: center;
