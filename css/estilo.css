@@ -317,13 +317,26 @@ main section figure img {
     color: rgb(197, 197, 197);
 }
 
+.blog-card .categorias {
+    display: flex;
+}
+
 .blog-card .cate {
     font-size: 1.2rem;
     background-color: green;
     padding: 5px;
-    margin: 10px 0;
+    margin: 10px 5px;
     border-radius: 5px;
 }
+
+.blog-card .des {
+    font-size: 1.2rem;
+    background-color: rgb(233, 96, 27);
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
 
 /*SECCION CONTACT */
 
