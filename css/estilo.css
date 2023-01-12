@@ -131,7 +131,7 @@ main section figure img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 450px;
     padding: 20px;
     border-radius: 20px;
     min-width: 320px;
@@ -157,7 +157,7 @@ main section figure img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 450px;
     padding: 20px 0;
     border-radius: 20px;
     min-width: 320px;
@@ -169,7 +169,7 @@ main section figure img {
 #techstack h3 {
     font-size: 3.6rem;
     width: 190px;
-    margin-top: 90px;
+    margin-top: 220px;
 }
 
 .article-container {
@@ -208,7 +208,7 @@ main section figure img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 450px;
     padding: 20px 0;
     border-radius: 20px;
     min-width: 320px;
@@ -286,7 +286,7 @@ main section figure img {
     margin: 10px 0;
     justify-content: center;
     background-color: rgb(27, 26, 26);
-    height: 270px;
+    height: 295px;
     min-width: 270px;
     width: 100%;
     max-width: 970px;
@@ -305,17 +305,24 @@ main section figure img {
     font-size: 1.8rem;
     width: 100%;
     min-width: 260px;
-    max-width: 400px;
-    padding: 20px 20px 10px 20px;
+    max-width: 300px;
+    padding: 10px 10px 5px 0px;
     text-align: center;
     text-decoration: none;
     color: white;
 }
 
-.blog-card p {
-    font-size: 1.4rem;
+.blog-card .autor {
+    font-size: 1.5rem;
     color: rgb(197, 197, 197);
+}
 
+.blog-card .cate {
+    font-size: 1.2rem;
+    background-color: green;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
 /*SECCION CONTACT */
