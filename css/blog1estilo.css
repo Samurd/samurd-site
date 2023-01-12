@@ -80,6 +80,14 @@ nav a {
     min-width: 320px;
 }
 
+.blog-main .imagenes {
+    width: 100%;
+    min-width: 270px;
+    border-radius: 40px;
+    padding: 20px;
+    max-width: 690px;
+}
+
 .blog-main p {
     font-size: 1.6rem;
     width: 100%;
