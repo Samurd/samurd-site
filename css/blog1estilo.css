@@ -186,5 +186,10 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: white;
+}
+
+.blog-card p {
+    font-size: 1.4rem;
+    color: rgb(197, 197, 197);
 
 }
