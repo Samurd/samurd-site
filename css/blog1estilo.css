@@ -52,6 +52,13 @@ nav a {
 
 /*CONTENIDO PRINCIPAL */
 
+.blog-main img {
+    width: 100%;
+    min-width: 270px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
 
 .blog-main h2 {
     font-size: 2.5rem;
@@ -79,6 +86,41 @@ nav a {
     max-width: 400px;
     padding: 12px 20px;
 }
+
+/*SECCION SHARE */
+
+.share {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    padding: 20px 0;
+    border-radius: 20px;
+    min-width: 320px;
+    margin-top: 5px;
+}
+
+.share h3 {
+    font-size: 1.6rem;
+}
+
+.shares {
+    display: flex;
+    margin: 10px 0;
+}
+
+.shares a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
 
 
 /* SECCION BLOG */
@@ -135,12 +177,14 @@ nav a {
     object-fit: cover;
 }
 
-.blog-card h4 {
+.blog-card a {
     font-size: 1.8rem;
     width: 100%;
     min-width: 260px;
     max-width: 400px;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
+    color: white;
 
 }

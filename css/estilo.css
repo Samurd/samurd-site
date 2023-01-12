@@ -301,13 +301,15 @@ main section figure img {
     object-fit: cover;
 }
 
-.blog-card h4 {
+.blog-card a {
     font-size: 1.8rem;
     width: 100%;
     min-width: 260px;
     max-width: 400px;
     padding: 20px;
     text-align: center;
+    text-decoration: none;
+    color: white;
 
 }
 
